@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Login/Sign Up</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Online Watch Store</div>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="collection.html">Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="auth-section">
+        <h2>Customer Login/Sign Up</h2>
+        <form class="auth-form" method="post" action="login.php">
+            <label for="customerId">Customer id:</label>
+            <input type="text" id="customerId" name="customerId" value="">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="">
+
+            <label for="contactNo">Contact no:</label>
+            <input type="text" id="contactNo" name="contactNo" value="">
+
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" value="">
+
+            <button type="reset" class="btn">Reset</button>
+            <button type="submit" class="btn" value="submit">Next</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 Modern Watch Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

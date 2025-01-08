@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection - Modern Watch Store</title>
+    <link rel="stylesheet" href="style3.css">
+    <script>
+        function showCollection(collection) {
+            document.getElementById('mens-collection').style.display = (collection === 'men') ? 'block' : 'none';
+            document.getElementById('womens-collection').style.display = (collection === 'women') ? 'block' : 'none';
+        }
+    
+        document.addEventListener('DOMContentLoaded', function() {
+            showCollection('men');
+        });
+    </script>
+    
+</head>
+<body>
+    <header>
+        <div class="logo">Online Watch Store</div>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="collection.html">Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="collection">
+        <h2>Our Collection</h2>
+        <div class="category-selection">
+            <button onclick="showCollection('men')">Men's Collection</button>
+            <button onclick="showCollection('women')">Women's Collection</button>
+        </div>
+        
+        <!-- Men's Watches -->
+        <div id="mens-collection" class="category" style="display: none;">
+            <h3>Men's Watches</h3>
+            
+            <!-- Analog Watches -->
+            <div class="subcategory">
+                <h4>Analog Watches</h4>
+                <div class="products">
+                    <div class="product">
+                        <img src="All-Photos/Screenshot 2024-12-25 212356.png" alt="Analog Watch 1">
+                        <p>Rolex 1908</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="All-Photos/Screenshot 2024-12-25 212310.png" alt="Analog Watch 2">
+                        <p>Sea‑Dweller</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="All-Photos/Screenshot 2024-12-25 212824.png" alt="Analog Watch 2">
+                        <p>Cosmograph Daytona</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <!-- Add more analog men's watches as needed -->
+                </div>
+            </div>
+            
+            <!-- Smart Watches -->
+            <div class="subcategory">
+                <h4>Smart Watches</h4>
+                <div class="products">
+                    <div class="product">
+                        <img src="All-Photos/se.png" alt="Smart Watch 1">
+                        <p>Apple Watch SE</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="All-Photos/10.png" alt="Smart Watch 2">
+                        <p>Apple Watch Series 10</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="All-Photos/ultra2.png" alt="Smart Watch 2">
+                        <p>Apple Watch Ultra 2</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <!-- Add more smart men's watches as needed -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Women's Watches -->
+        <div id="womens-collection" class="category" style="display: none;">
+            <h3>Women's Watches</h3>
+            
+            <!-- Analog Watches -->
+            <div class="subcategory">
+                <h4>Analog Watches</h4>
+                <div class="products">
+                    <div class="product-2">
+                        <img src="All-Photos/Screenshot 2024-12-25 213222.png" alt="Analog Watch 1">
+                        <p>Day-Date 36</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product-2">
+                        <img src="All-Photos/Screenshot 2024-12-25 213346.png" alt="Analog Watch 2">
+                        <p>Lady-Datejust</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product-2">
+                        <img src="All-Photos/Screenshot 2024-12-25 213420.png" alt="Analog Watch 2">
+                        <p>Oyster Perpetual 28</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <!-- Add more analog women's watches as needed -->
+                </div>
+            </div>
+            
+            <!-- Smart Watches -->
+            <div class="subcategory">
+                <h4>Smart Watches</h4>
+                <div class="products">
+                    <div class="product">
+                        <img src="All-Photos/watch6.png" alt="Smart Watch 1">
+                        <p>Galaxy Watch 6 Classic</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="All-Photos/watch7.png" alt="Smart Watch 2">
+                        <p>Galaxy Watch 7</p>
+                        <button>Buy Now</button>
+                    </div>
+                    <div class="product">
+                        <img src="All-Photos/watch3.png" alt="Smart Watch 2">
+                        <p>Google Pixel Watch 3 </p>
+                        <button>Buy Now</button>
+                    </div>
+                    <!-- Add more smart women's watches as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Modern Watch Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

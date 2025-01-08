@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Any Designation</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>
+        .logo{
+            cursor: default;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+             /* Add space from the left side */
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: space-around;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 20px; /* Add margin to separate from the header */
+        }
+        .section {
+            padding: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: black;
+        }
+        .section img {
+            margin-bottom: 10px;
+        }
+        .section:hover {
+            background-color: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Online Watch Store</div>
+        <nav>
+            <ul>
+                <li><a href="index3.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="collection.html">Collection</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="auth-section">
+        <h1>Select Any Designation</h1>
+        <div class="container">
+            <a href="add_item.html" class="section">
+                <img src="items.png" alt="Add Item for stocks" width="50" height="50">
+                <span>Add Item for stocks</span>
+            </a>
+            <a href="check_orders.html" class="section">
+                <img src="shopping-list.png" alt="Check Orders" width="50" height="50">
+                <span>Check Orders</span>
+            </a>
+            <a href="stock.html" class="section">
+                <img src="inventory.png" alt="Stock" width="50" height="50">
+                <span>Stock</span>
+            </a>
+            <a href="manage_customer.html" class="section">
+                <img src="public-service.png" alt="Manage Customer" width="50" height="50">
+                <span>Manage Customer</span>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 Modern Watch Store. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

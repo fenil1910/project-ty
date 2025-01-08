@@ -1,0 +1,160 @@
+body {
+    font-family: 'calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-y: auto; /* Ensure vertical scrolling */
+    min-height: 100vh; /* Ensure full viewport height */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-image: url('All-Photos/qw.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 3rem 1rem;
+    color: white;
+    flex: 1; /* Allow banner to grow */
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #ff5733;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.products {
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.product-1 img {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+}
+.product-2 img {
+    width: 200px;
+    height: 277px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto; /* Ensure footer stays at the bottom */
+    width: 100%;
+}
+.auth-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    width: 300px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+.auth-form input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.auth-section {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    width: 300px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form label {
+    margin: 0.5rem 0 0.2rem;
+}
+
+.auth-form input, .auth-form textarea, .auth-form select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.category, .subcategory {
+    margin-bottom: 2rem;
+}
+
+#collection{
+    padding-left: 20px;
+}
+/* Category selection buttons */ .category-selection { margin-bottom: 2rem; } .category-selection button { margin: 0 1rem; padding: 0.5rem 1rem; background-color: #04AA6D; color: white; border: none; border-radius: 5px; cursor: pointer; } /* Category and subcategory styling */ .category, .subcategory { margin-bottom: 2rem; }
